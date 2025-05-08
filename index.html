@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess the number</title>
+</head>
+<body>
+    <h1>Guess the number from 1 to 5</h1>
+    <input type="text" placeholder="Enter any Number" class="two" id="inputbox">
+    <button class="one" id="btn" onclick="checkguess()">Check</button>
+    <p id="result">You are Right/Wrong</p>
+    <p id="guesscount">Available Guesses:</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+    .one{
+        box-shadow: 5px 3px 3px gray;
+        background-color: black;
+        color: aliceblue;
+    } 
+    .two{
+        box-shadow: 0px 2px 4px gray;
+    }
+    body{
+        background-color: blanchedalmond;
+        text-align: center;
+    }
+    h1 {
+        text-shadow: 3px 3px rgb(189, 189, 189);
+    }
+
+
+</style>
